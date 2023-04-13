@@ -1,0 +1,583 @@
+body{
+    font-family: 'satoshi';
+}
+#signup{
+    padding: 10px 23px;
+    background: #1070FF;
+    border-radius: 4px;
+    border: 1px solid;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+li{
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 50px;
+    color: #717172;
+}
+a{
+    padding: 1px 1px;
+    color: #717172;
+    margin-left: 200px;
+}
+.gettickbox{
+    margin-left: 350px;
+}
+#getticket{
+    padding: 12px 25px;
+    color:#ffff;
+    background: #1070FF;
+    border-radius: 4px;
+    border: 1px solid ;
+}
+.strength{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+#Nov{
+    margin-top: 25px;
+    margin-left: 320px;
+}
+.speakers{
+    display:flex;
+    flex-direction: row;
+    margin-left: 40px;
+}
+#ig{
+    margin-left: 900px;
+    margin-top: 90px;
+}
+.part2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.amakadebra{
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+    margin-right: 20px;
+}
+.circlearrow{
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+}
+.webinars{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+}
+#iw{
+    margin-top: 90px;
+    margin-left: 910px;
+}
+.newsletter{
+    text-align: center;
+    padding: 80px;
+}
+#email{
+    padding: 10px 40px;
+    border-radius: 4px;
+    border: 1px solid white;
+}
+#subscribe{
+    color: white;
+    background: #1070FF;
+    padding: 13px 15px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.convo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.lptsc{
+    margin-top: 30px;
+}
+#conv{
+    margin-top: 20px;
+}
+#aud{
+    margin-left: 40px;
+}
+.pics{
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#aud{
+    width: 1190px;
+    height: 540px;
+}
+#web{
+    text-align: center;
+    font-size: 60px;
+    color: #151517;
+}
+#inourfree{
+    text-align: center;
+}
+#firstconvo{
+    position: absolute;
+}
+#stren{
+    color:#151517;
+    margin-left: 28px;
+}
+#speak{
+    margin-top: 70px;
+}
+#amadeb{
+    width: 350px;
+    height: 450px;
+}
+#deblan{
+    width: 350px;
+    height: 450px;
+}
+#thera{
+    margin-left: 30px;
+}
+#arr{
+    width: 110px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 45px;
+}
+#all{
+    margin-top: 80px;
+}
+#arw{
+    margin-left: 86.5%;
+}
+#cov{
+    font-size: 20px;
+    color: #000000; 
+    margin-right: 100px; 
+    margin-left: 40px;
+}
+#signup{
+    color: #fff;
+}
+#Login{
+    text-decoration: none;
+}
+.convo{
+    background:#1070FF;
+}
+#conv{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 150px;
+}
+#wite{
+    position: absolute; 
+    margin-left: 100px;
+    margin-top: 10px;
+}
+#firstconvo{
+    width: 33.3px;
+    height: 33.3px;
+    top: 3.33px;
+    left: 3.33px;
+    margin-left: 50px; 
+    margin-top: 15px;
+}
+#reconfam{
+    width: 370px; 
+    height: 294;
+}
+#friendbelon{
+    width: 370px; 
+    height: 294;
+}
+#friendreset{
+    width: 370px;
+    height: 294;
+    margin-right: 30px;
+}
+@media screen and (max-width: 480px) {
+    .amakadebra{
+        display: flex;
+        flex-direction: column;
+    }
+    .pics{
+        display: flex;
+        flex-direction: column;
+    }
+    #aud{
+        width: 100%;
+        height: 150px;
+    }
+    #web{
+        font-size: 40px;
+    }
+    #inourfree{
+        text-align: center;
+        text-align: left;
+        margin-left: 40px;
+    }
+    #stren{
+        font-size: 30px;
+        text-align: left;
+    }
+    .strength{
+        display: flex;
+        flex-direction: column;
+        text-align:left;
+    }
+    #Nov{
+        margin-left: 30px;
+        text-align: left;
+    }
+    .gettickbox{
+        margin-left: 1%;
+    }
+    #ig{
+        margin-left: 80px;
+        margin-top: 100px;
+    }
+    #speak{
+        margin-top: 85px;
+    }
+    #amadeb{
+        width: 320px;
+        height: 350px;
+        margin-left: 70px;
+    }
+    #deblan{
+        width: 320px;
+        height: 350px;
+        margin-left: 70px;
+    }
+    #arr{
+        margin-right: 70px;
+        position: absolute;
+        margin-top: 850px;
+        margin-left: 270px;
+    }
+    #all{
+        font-size: 25px;
+        margin-top: 125px;
+    }
+    #iw{
+        margin-left: 100px;
+        margin-top: 150px;
+    }
+    .part2{
+        display: flex;
+        flex-direction: column;
+    }
+    #thera{
+        margin-left: 70px;
+    }
+    #arw{
+        margin-left: 75%;
+    }
+    #cov{
+        margin-bottom: 80px;
+        margin-right: 1px;
+        margin-left: 75px;
+    }
+    #Login{
+        margin-left: 50px;
+    }
+    #signup{
+        padding: 8px 8px;
+    }
+    li{
+        margin-right: 12px; 
+    }
+    nav{
+        margin-left: 1px;
+    }
+    .lister{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+        font-size: 25px;
+        text-align: left;
+    }
+    .lptsc{
+        margin-left: 45px;
+    }
+    .hfch{
+        margin-left: 45px;
+    }
+    #email{
+        padding: 10px 1px;
+    }
+    #subscribe{
+        padding: 15px 5px;
+    }
+    .newsletter{
+        width: 80%;
+        font-size: 12px;
+    }
+    .convo{
+       width: 120%;
+       align-items: center;
+    }
+    #wite{
+        margin-right: 200px;
+    }
+    #conv{
+        margin-right: 150px;
+    }
+    .pics{
+        margin-left: 43px;
+    }
+    .stfl{
+        margin-right: 50px;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 900px) {
+     .amakadebra{
+        display: flex;
+        flex-direction: column;
+    }
+    .pics{
+        display: flex;
+        flex-direction: column;
+    }
+    #aud{
+        width: 100%;
+        height: 150px;
+    }
+    #web{
+        font-size: 40px;
+    }
+    #inourfree{
+        text-align: center;
+        text-align: left;
+        margin-left: 40px;
+    }
+    #stren{
+        font-size: 30px;
+        text-align: left;
+    }
+    .strength{
+        display: flex;
+        flex-direction: column;
+        text-align:left;
+    }
+    #Nov{
+        margin-left: 30px;
+        text-align: left;
+    }
+    .gettickbox{
+        margin-left: 1%;
+    }
+    #ig{
+        margin-left: 80px;
+        margin-top: 100px;
+    }
+    #speak{
+        margin-top: 85px;
+    }
+    #amadeb{
+        width: 320px;
+        height: 350px;
+        margin-left: 70px;
+    }
+    #deblan{
+        width: 320px;
+        height: 350px;
+        margin-left: 70px;
+    }
+    #arr{
+        margin-right: 70px;
+        position: absolute;
+        margin-top: 850px;
+        margin-left: 270px;
+    }
+    #all{
+        font-size: 25px;
+        margin-top: 125px;
+    }
+    #iw{
+        margin-left: 100px;
+        margin-top: 150px;
+    }
+    .part2{
+        display: flex;
+        flex-direction: column;
+    }
+    #thera{
+        margin-left: 70px;
+    }
+    #arw{
+        margin-left: 75%;
+    }
+    #cov{
+        margin-bottom: 80px;
+        margin-right: 1px;
+        margin-left: 75px;
+    }
+    #Login{
+        margin-left: 50px;
+    }
+    #signup{
+        padding: 8px 8px;
+    }
+    li{
+        margin-right: 12px; 
+    }
+    nav{
+        margin-left: 1px;
+    }
+    .lister{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25px;
+        font-size: 25px;
+        text-align: left;
+    }
+    .lptsc{
+        margin-left: 45px;
+    }
+    .hfch{
+        margin-left: 45px;
+    }
+    #email{
+        padding: 10px 1px;
+    }
+    #subscribe{
+        padding: 15px 5px;
+    }
+    .newsletter{
+        width: 80%;
+        font-size: 12px;
+    }
+    .convo{
+       width: 120%;
+       align-items: center;
+    }
+    #wite{
+        margin-right: 200px;
+    }
+    #conv{
+        margin-right: 150px;
+    }
+    .pics{
+        margin-left: 43px;
+    }
+    .stfl{
+        margin-right: 50px;
+    }
+    #cov{
+        margin-top: 75px;
+    }
+    #firstconvo{
+        margin-top: 72px;
+    }
+    #inourfree{
+        margin-left: 60px;
+    }
+    #aud{
+        width: 100%;
+        height: 100%;
+        margin-left: 50px;
+    }
+    .strength{
+        display: flex;
+        flex-direction: row;
+    }
+    #Nov{
+        margin-left: 150px;
+    }
+    #stren{
+        font-size: 30px;
+    }
+    .gettickbox{
+        margin-left: 170px;
+    }
+    #ig{
+        margin-left: 500px;
+    }
+    .part2{
+        display: flex;
+        flex-direction: row;
+    }
+    #arr{
+        margin-top: 710px;
+        margin-left: 60px;
+    }
+    #iw{
+        margin-left: 510px;
+    }
+    #amadeb{
+        margin-left: 5px;
+    }
+    #deblan{
+        margin-left: 5px;
+    }
+    #all{
+        margin-top: 150px;
+    }
+    .pics{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    #reconfam{
+        width: 250px;
+        height: 270px;
+    }
+    #friendbelon{
+        width: 250px;
+        height: 270px;
+    }
+    #friendreset{
+        width: 250px;
+        height: 270px;
+    }
+    #arw{
+        margin-left: 685px;
+    }
+    .newsletter{
+        width: 100%;
+        font-size:30px;
+    }
+    #email{
+        padding: 10px;
+        font-size: 25px;
+    }
+    #subscribe{
+        padding: 25px;
+        font-size: 25px;
+    }
+    .lister{
+        display: flex;
+        flex-direction: row;
+        font-size: 25px;
+    }
+    .lptsc{
+        margin-top: 110px;
+    }
+    .hfch{
+        margin-top: 30px;
+    }
+    #conv{
+        position: absolute;
+        margin-top: 70px;
+        margin-left: 5px;
+        margin-right: 800px;
+    }
+    #wite{
+        margin-top: 65px;
+        margin-left: 5px;
+        margin-right: 895px;
+    }
+}
+
