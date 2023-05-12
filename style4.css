@@ -1,0 +1,49 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+nav>ul{
+
+}
+nav>ul>li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 30px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+nav>a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav>a>span{
+    vertical-align: 10px;
+}
+nav>div>a{
+    text-decoration: none;
+    color: black;
+}
+nav>div>button{
+    padding: 9px 20px;
+    background-color: #1070FF;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#peoplesitting{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
